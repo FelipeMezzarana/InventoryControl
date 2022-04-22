@@ -25,30 +25,6 @@ MsgBox "Editing done successfully!", vbInformation, Edição.codigo
 
 End Sub
 
-Private Sub Label10_Click()
-
-End Sub
-
-Private Sub Label155_Click()
-
-End Sub
-
-Private Sub Label4_Click()
-
-End Sub
-
-Private Sub Label5_Click()
-
-End Sub
-
-Private Sub Label6_Click()
-
-End Sub
-
-Private Sub Label8_Click()
-
-End Sub
-
 Private Sub tipo_Change()
 
 If Me.tipo = "" Then
