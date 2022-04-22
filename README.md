@@ -14,7 +14,7 @@ Its main functions are:
 - Generate identification tags
 - Many validation tools to prevent user errors
 
-Obs: The program was originally developed in portuguese, and later everything has been translated and adapted to english. Therefore, the Database in this repository (which contains fictional items and serves as an example only) have items named in Portuguese. To start using the program, you must delete all the contents of the database, keeping only its structure and register the desired items.
+Obs: The program was originally developed in portuguese, and later everything has been translated and adapted to english. Therefore, the Database in this repository (which contains fictional items and serves as an example only) have items named in Portuguese. To start using the program, you must delete all the contents of the database, keeping only its structure. Then, register the desired items.
 
 
 2 - Requirements
