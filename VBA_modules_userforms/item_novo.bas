@@ -1,5 +1,5 @@
+'Userform
 Private Sub classe_Change()
-
 
 If Me.classe = "" Then
     Exit Sub
