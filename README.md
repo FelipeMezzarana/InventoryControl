@@ -23,3 +23,51 @@ Obs: The program was originally developed in portuguese, and later everything ha
 - The folder containing the database “DATABASE” (found in this repository) must be located in the same path as the main file “inventory _control_v1.56”
 
 3 - User instructions
+
+3.1 Interface overview
+
+![image](https://user-images.githubusercontent.com/90487618/164818163-38e1bbff-f735-4f7d-bf28-3e7b7d490b5b.png)
+
+- 1 - The program was developed for 17'' square screens, which means that this interface may not adapt perfectly depending on the screen used. That's why we have zoom in, zoom out and fullscreen buttons to make the program adjustable on any screen.
+
+- 2 - opens the Useform for inventory control, management and editing.
+
+- 3 - Open userform for registering new items
+
+- 4 – unprotects the workbook for editing through a password, so changes can be made to the design, registration of new passwords, change in the names of the database and its folder, etc. (admin password “E1234”)
+
+
+
+3.2 Inventory Receipt\Issue
+
+![image](https://user-images.githubusercontent.com/90487618/164836462-92f15a6a-1656-4099-8aed-df03af8dd6e1.png)
+
+
+This is the Main Userform of the program. Here you can view, edit, add or remove items.
+
+3.2.1 Searching for items:
+
+The three buttons and the three comboboxes offer different ways of filtering and selecting items, we will explain each one individually:
+
+- Complete Inventory: Generates a complete list with all items registered (this button was clicked to take this print)
+- Critical Items: Notice that we have the min/max/balance values. Balance is the total quantity of the item in the inventory. Min and max are values entered at the time of registering for each item, and indicate the ideal amount that should be stored. In addition, the third letter of the code for each item indicates its importance (A, B or C). By clicking on the Critical items button, we get a list of items that are below the ideal minimum and have A or B importance.
+- Missing Items: generates a list with items where Balance = 0 , that is, items that are missing
+- Search by Description: Search a specific item by its description
+- Search by Application: Generates list of items from the chosen category.
+- Search by Cod.: Searches for a specific item by its code.
+
+3.2.2 Modifying an item
+
+After selecting an item, we can click on:
+- Inventory Receipt:
+
+![image](https://user-images.githubusercontent.com/90487618/164837645-ddf65d3c-d8f4-46aa-9227-ac8a78df576b.png)
+
+User had to enter the quantity to be inserted in the stock. When clicking OK the database will be updated.
+
+- Iventory Issue:
+
+![image](https://user-images.githubusercontent.com/90487618/164837809-da8db89e-b45c-451c-b4fc-cab7fb80e02b.png)
+
+User had to enter the quantity to be withdrawn from the stock, when clicking OK the database will be updated.
+
