@@ -71,3 +71,21 @@ User had to enter the quantity to be inserted in the stock. When clicking OK the
 
 User had to enter the quantity to be withdrawn from the stock, when clicking OK the database will be updated.
 
+- Edit Item
+
+![image](https://user-images.githubusercontent.com/90487618/164837988-c2ec29fb-902a-4c80-805e-54b282d9e41f.png)
+
+It will open a new userform with all the current information of the item, changing it and clicking on save updated the database.
+
+- Print ID Sticker
+
+![image](https://user-images.githubusercontent.com/90487618/164838282-8c45f6ff-ef53-4543-886d-96d9c69489d8.png)
+
+It will generate a page formatted with the sticker tag ready for printing, as shown in the image above. The tag should be used to identify physical items. By clicking on the arrow you can return to the main menu.
+
+3.3 New Item (Main Menu)
+
+![image](https://user-images.githubusercontent.com/90487618/164838530-f0660109-3749-480f-83e0-a0ce5708e11c.png)
+
+A userform for registering new items will be opened. All information must be filled in, with the exception of the code that will be generated automatically (by clicking on the button next to it). By clicking on the save button, the database will be updated with the information of the new item.
+
