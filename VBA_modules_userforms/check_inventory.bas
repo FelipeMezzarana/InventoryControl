@@ -14,7 +14,7 @@ Set rst = New ADODB.Recordset
 rst.Open Source:="Estoque", ActiveConnection:=cnn, CursorType:=adOpenStatic, LockType:=adLockOptimistic, Options:=adCmdTable
 
 Do Until rst.EOF = True
-    Estoque.pesquisa.AddItem (rst.Fields("DESCRIÇÃO"))
+    Inventory_Userform.pesquisa.AddItem (rst.Fields("DESCRIÇÃO"))
     rst.MoveNext
 Loop
 
@@ -47,13 +47,13 @@ rst.Open Source:="Estoque", ActiveConnection:=cnn, CursorType:=adOpenStatic, Loc
 Do Until rst.EOF = True
     item = rst.Fields("APLICAÇÃO")
     co = 0
-    For intComboItem = 0 To Estoque.pesquisa_app.ListCount - 1
-        If item = Estoque.pesquisa_app.List(intComboItem) Then
+    For intComboItem = 0 To Inventory_Userform.pesquisa_app.ListCount - 1
+        If item = Inventory_Userform.pesquisa_app.List(intComboItem) Then
             co = 1
         End If
     Next
     If co = 0 Then
-        Estoque.pesquisa_app.AddItem (rst.Fields("APLICAÇÃO"))
+        Inventory_Userform.pesquisa_app.AddItem (rst.Fields("APLICAÇÃO"))
     End If
     rst.MoveNext
 Loop
@@ -81,7 +81,7 @@ Set rst = New ADODB.Recordset
 rst.Open Source:="Estoque", ActiveConnection:=cnn, CursorType:=adOpenStatic, LockType:=adLockOptimistic, Options:=adCmdTable
 
 Do Until rst.EOF = True
-    Estoque.pesquisa_cod.AddItem (rst.Fields("CODIGO"))
+    Inventory_Userform.pesquisa_cod.AddItem (rst.Fields("CODIGO"))
     rst.MoveNext
 Loop
 
