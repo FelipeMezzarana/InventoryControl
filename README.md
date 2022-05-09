@@ -30,9 +30,9 @@ Obs: The program was originally developed in portuguese, and later everything ha
 
 - 1 - The program was developed for 17'' square screens, which means that this interface may not adapt perfectly depending on the screen used. That's why we have zoom in, zoom out and fullscreen buttons to make the program adjustable on any screen.
 
-- 2 - opens the Useform for inventory control, management and editing.
+- 2 - Open a Useform for inventory control, management and editing.
 
-- 3 - Open userform for registering new items
+- 3 - Open a Userform for registering new items
 
 - 4 – unprotects the workbook for editing through a password, so changes can be made to the design, registration of new passwords, change in the names of the database and its folder, etc. (admin password “E1234”)
 
