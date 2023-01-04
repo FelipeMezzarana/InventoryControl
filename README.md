@@ -1,7 +1,7 @@
 # inventory_control
 VBA program to control a factory's warehouse inventory
 
-1. Introduction
+## 1. Introduction
 
 This program offers an interface for the user to control and visualize a database with detailed information about a factory's inventory, offering the possibility of simultaneous use by several users.
 
@@ -17,14 +17,14 @@ Its main functions are:
 Obs: The program was originally developed in portuguese, and later everything has been translated and adapted to english. Therefore, the Database in this repository (which contains fictional items and serves as an example only) have items named in Portuguese. To start using the program, you must delete all the contents of the database, keeping only its structure. Then, register the desired items.
 
 
-2 - Requirements
+## 2 - Requirements
 - Office package installed (Access installation is not required)
 - Font installation “code 39” for creating barcodes (can be found in a .zip file in this repository)
 - The folder containing the database “DATABASE” (found in this repository) must be located in the same path as the main file “inventory _control_v1.56”
 
-3 - User instructions
+## 3 - User instructions
 
-3.1 Interface overview
+### 3.1 Interface overview
 
 ![image](https://user-images.githubusercontent.com/90487618/164818163-38e1bbff-f735-4f7d-bf28-3e7b7d490b5b.png)
 
@@ -38,14 +38,14 @@ Obs: The program was originally developed in portuguese, and later everything ha
 
 
 
-3.2 Inventory Receipt\Issue
+## 3.2 Inventory Receipt\Issue
 
 ![image](https://user-images.githubusercontent.com/90487618/164836462-92f15a6a-1656-4099-8aed-df03af8dd6e1.png)
 
 
 This is the Main Userform of the program. Here you can view, edit, add or remove items.
 
-3.2.1 Searching for items:
+### 3.2.1 Searching for items:
 
 The three buttons and the three comboboxes offer different ways of filtering and selecting items, we will explain each one individually:
 
@@ -56,7 +56,7 @@ The three buttons and the three comboboxes offer different ways of filtering and
 - Search by Application: Generates list of items from the chosen category.
 - Search by Cod.: Searches for a specific item by its code.
 
-3.2.2 Modifying an item
+### 3.2.2 Modifying an item
 
 After selecting an item, we can click on:
 - Inventory Receipt:
@@ -83,7 +83,7 @@ It will open a new userform with all the current information of the item, changi
 
 It will generate a page formatted with the sticker tag ready for printing, as shown in the image above. The tag should be used to identify physical items. By clicking on the arrow you can return to the main menu.
 
-3.3 New Item (Main Menu)
+## 3.3 New Item (Main Menu)
 
 ![image](https://user-images.githubusercontent.com/90487618/164838530-f0660109-3749-480f-83e0-a0ce5708e11c.png)
 
